@@ -16,8 +16,7 @@
     "@sanity/desk-tool",
     "dashboard-widget-structure-menu",
     "dashboard-widget-document-list",
-    "dashboard-widget-netlify",
-    "media"
+    "dashboard-widget-netlify"
   ],
   "parts": [
     {
