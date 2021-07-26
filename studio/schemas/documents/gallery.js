@@ -32,6 +32,18 @@ export default {
       title: "Image Gallery",
     },
     {
+      name: "location",
+      type: "geopoint",
+      options: {
+        leaflet: {
+          defaultLocation: {
+            lat: 59.924095,
+            lng: 10.758458,
+          },
+        },
+      },
+    },
+    {
       name: "categories",
       type: "array",
       title: "Categories",
