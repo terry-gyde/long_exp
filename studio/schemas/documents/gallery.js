@@ -32,6 +32,11 @@ export default {
       title: "Image Gallery",
     },
     {
+      name: "customString",
+      title: "Image Gallery",
+      type: "customString",
+    },
+    {
       name: "location",
       type: "geopoint",
       options: {

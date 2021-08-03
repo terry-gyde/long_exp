@@ -21,6 +21,8 @@ import authorReference from "./objects/authorReference";
 
 import imageGallery from "./objects/imageGallery";
 
+import customString from "./objects/customString";
+
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
@@ -42,6 +44,8 @@ export default createSchema({
 
     gallery,
     imageGallery,
+
+    customString,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
